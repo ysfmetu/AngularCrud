@@ -6,12 +6,12 @@
   <div class="collapse navbar-collapse" id="navbarColor02">
      <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-           <a class="nav-link">Yeni Personel Ekle <span class="sr-only">(current)</span></a>
+          <a class="nav-link" (click)="onOpenModal(null, 'add')" class="btn btn-info tooltips">Personel Ekle</a>
         </li>
-     </ul>
+     </ul>|||
      <form class="form-inline my-2 my-lg-0">
         <input type="search" (ngModelChange)="searchEmployees(key.value)" #key="ngModel" ngModel
-         name="key" id="searchName" class="form-control mr-sm-2" placeholder="Search employees..." required>
+         name="key" id="searchName" class="form-control mr-sm-2" placeholder="Personel Ara..." required>
      </form>
   </div>
 </nav>
@@ -34,8 +34,8 @@
         </ul>
         <div class="card-body">
            <div class="float-right btn-group btn-group-sm">
-              <a (click)="onOpenModal(employee, 'edit')" class="btn btn-primary tooltips" data-placement="top" data-original-title="Edit">Edit<i class="fa fa-pencil"></i> </a>
-              <a (click)="onOpenModal(employee, 'delete')" class="btn btn-info tooltips" data-placement="top" data-original-title="Delete">Delete<i class="fa fa-times"></i></a>
+              <a (click)="onOpenModal(employee, 'edit')" class="btn btn-primary tooltips" data-placement="top" data-original-title="Edit">Düzenle<i class="fa fa-pencil"></i> </a>
+              <a (click)="onOpenModal(employee, 'delete')" class="btn btn-info tooltips" data-placement="top" data-original-title="Delete">Sil<i class="fa fa-times"></i></a>
            </div>
         </div>
      </div>

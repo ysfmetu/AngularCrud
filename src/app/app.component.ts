@@ -89,7 +89,7 @@ export class AppComponent implements OnInit {
     }
   }
 
-  public onOpenModal(employee: Employee, mode: string): void {
+  public onOpenModal(employee: any, mode: string): void {
     const container = document.getElementById('main-container') as HTMLElement;
     const button = document.createElement('button');
     button.type = 'button';
