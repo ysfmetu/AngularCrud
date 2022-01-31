@@ -1,4 +1,4 @@
-# Employeemanagerapp
+# Personel CRUD uygulaması
 
 Bu proje [Angular CLI] version 12.2.11. kullanarak yapılmıştır.
 Angular temel özelliklerini kullanarak CRUD işlemleri yapmaktadır.
