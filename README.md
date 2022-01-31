@@ -1,6 +1,9 @@
 # Employeemanagerapp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.11.
+Bu proje [Angular CLI] version 12.2.11. kullanarak yapılmıştır.
+Angular temel özelliklerini kullanarak CRUD işlemleri yapmaktadır.
+Modal sistemi kullanılmıştır
+Formmodule kullanılmıştır.
 
 ## Development server
 
